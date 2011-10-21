@@ -59,5 +59,5 @@ SampleApp::Application.configure do
   config.active_support.deprecation = :notify
   
   # for css
-  config.assets.precompile += %w( *.js *.css )
+  config.assets.precompile += %w( blueprint/screen.css blueprint/print.css )
 end
